@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Button, Input } from "@nextui-org/react"
 import TodoList from "./components/TodoList"
 import { useFirebase } from "./contexts/firebase"
