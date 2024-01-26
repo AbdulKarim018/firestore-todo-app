@@ -7,7 +7,7 @@ import {
 } from "firebase/firestore";
 import { useFirebase } from "../contexts/firebase";
 import Todo from "./Todo";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Spinner } from "@nextui-org/react";
 
 type Props = {
